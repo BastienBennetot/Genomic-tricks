@@ -1,0 +1,1 @@
+bcftools query  -f '%CHROM\t%POS\t%REF\t%ALT[%GT]\n' vcf_file.vcf.gz > new_tab_vcf.tab
